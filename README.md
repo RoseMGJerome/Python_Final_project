@@ -92,7 +92,8 @@ We observe lower energy consumption during the weekend, especially on Sundays. T
 January has the highest average energy consumption (kWh), followed by February. This may indicate that the company received more orders at the beginning of the year, possibly due to increased demand during the holiday season compared to other months.
 
 
-<img width="589" height="455" alt="Frequency_of_load_type" src="https://github.com/user-attachments/assets/fa195023-3be6-4a9e-9061-156b6569c1dc" />
+<img width="562" height="455" alt="Frequency_of_load_type" src="https://github.com/user-attachments/assets/fa195023-3be6-4a9e-9061-156b6569c1dc" />
+</n>
 The factory requires a relatively small amount of electricity. This could happen when fewer machines are operating, production activity is lower, or some equipment is not being used.
 
 
