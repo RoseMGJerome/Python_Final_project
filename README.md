@@ -17,4 +17,16 @@ Summary
 We will use the Pandas library to import the dataset into Python and convert it into a DataFrame. We will perform data cleaning  and document each step of the process by adding comments to our code.
 We will also manipulate the dataset by performing operations such as filtering, sorting, and grouping.We need to create at least three visualizations that help explain the key insights from the dataset using either Matplotlib or Seaborn. We should choose appropriate types of charts and customize the 
 visualizations to make the results clear and easy to understand.
-At the end of the project, we will conduct a statistical analysis that includes descriptive statistics, such as the median, mean, standard deviation, and mode, as well as correlation analysis. We also need to explain the purpose of each analysis and how it helps us understand the dataset
+At the end of the project, we will conduct a statistical analysis that includes descriptive statistics, such as the median, mean, standard deviation, and mode, as well as correlation analysis. We also need to explain the purpose of each analysis and how it helps us understand the dataset.
+
+Importing the dataset!!!
+
+
+Data cleaning!!!
+
+Identifying duplicates data
+
+df2.loc[ df2.duplicated(subset=['NSM', 'Usage_kWh', 'Day_of_week'])]
+We have used three columns (NSM, Usage_kWh, and Day_of_week) to identify duplicate records in the dataset. The results reveal a considerable number of duplicate records based on these three columns.
+
+Dropping duplicates and null values
