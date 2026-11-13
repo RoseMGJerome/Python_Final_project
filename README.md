@@ -45,3 +45,18 @@ Identifying outliers!!!
 Comparing the Z-scores against the threshold of 3 reveals that the dataset contains potential outliers (Z-score > 3).
 
 Identifying and handling outliers is an important step in data analytics because they can distort statistical analyses, reduce model accuracy, and lead to misleading conclusions.
+
+###Analysis!!!
+
+How does electricity consumption differ between weekdays and weekends?
+Which month has the highest average consumption?
+
+Number of observations per load category.
+
+Why is Load_Type important for our analysis?
+Load_Type helps you understand how the factory's electricity demand changes according to its operating conditions.
+
+When does the factory consume the most electricity?
+
+
+## Data visualization!!
