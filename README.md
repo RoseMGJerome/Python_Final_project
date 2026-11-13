@@ -31,7 +31,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 df2 = pd.read_csv("Steel_industry_data.csv")
 df2
-<img width="1678" height="782" alt="Screenshot 2026-11-13 025112" src="https://github.com/user-attachments/assets/d6d8db47-c97c-4171-a5f7-d1856c1d9a69" />
+<img width="1566" height="643" alt="Dataset" src="https://github.com/user-attachments/assets/e4416677-abee-4212-bddc-717e6dd552b4" />
+
 
 
 The dataset contains 10 columns and 35040 rows.
@@ -78,13 +79,16 @@ When does the factory consume the most electricity?
 
 
 <img width="571" height="521" alt="fig1_Electricity_consumption_by_day_of_week" src="https://github.com/user-attachments/assets/62eac1eb-a328-4325-8fc3-a9297a318f3d" />
-Electricity Consumption by Day of the Week
+
+###Electricity Consumption by Day of the Week
 We observe lower energy consumption during the weekend, especially on Sundays. This may indicate that the company is closed on weekends or operates only a limited number of machines during those days.
 
 
 
 
 <img width="562" height="455" alt="fig2_Average_electricity_per_month" src="https://github.com/user-attachments/assets/7784c6b8-f79b-43e3-949d-24dbeed50aca" />
+
+
 January has the highest average energy consumption (kWh), followed by February. This may indicate that the company received more orders at the beginning of the year, possibly due to increased demand during the holiday season compared to other months.
 
 
@@ -93,7 +97,7 @@ The factory requires a relatively small amount of electricity. This could happen
 
 
 <img width="996" height="470" alt="Hourly_energy_consumption_by_day_of_week" src="https://github.com/user-attachments/assets/97a324f5-fd6e-4cf9-be4d-74a8ebc636a1" />
-![Hourly energy consumption by day of wee](Hourly_energy_consumption_by_day_of_week.png)
+
 For this visualization, we chose a line plot to identify when the factory consumes the most electricity during the day and for differents days of the week. According to the graph, we can see that electricity consumption is high between 7:00 AM and 12:00 PM, decreases between 12:00 PM and 1:00 PM, and then increases significantly from 1:00 PM to 8:00 PM. This pattern might suggest that the factory operates from 7:00 AM to 8:00 PM, with a long break around noon.
 
 This is a useful visualization because it helps us understand how average electricity consumption is distributed throughout the day.
