@@ -60,3 +60,31 @@ When does the factory consume the most electricity?
 
 
 ## Data visualization!!
+Electricity Consumption by Day of the Week
+We observe lower energy consumption during the weekend, especially on Sundays. This may indicate that the company is closed on weekends or operates only a limited number of machines during those days.
+
+<img width="571" height="521" alt="fig1_Electricity_consumption_by_day_of_week" src="https://github.com/user-attachments/assets/62eac1eb-a328-4325-8fc3-a9297a318f3d" />
+
+![Electricity Consumption by Day of the Week](fig1_Electricity_consumption_by_day_of_week.png)
+
+
+
+<img width="562" height="455" alt="fig2_Average_electricity_per_month" src="https://github.com/user-attachments/assets/7784c6b8-f79b-43e3-949d-24dbeed50aca" />
+
+
+<img width="589" height="455" alt="Frequency_of_load_type" src="https://github.com/user-attachments/assets/fa195023-3be6-4a9e-9061-156b6569c1dc" />
+
+
+
+<img width="996" height="470" alt="Hourly_energy_consumption_by_day_of_week" src="https://github.com/user-attachments/assets/97a324f5-fd6e-4cf9-be4d-74a8ebc636a1" />
+![Hourly energy consumption by day of wee](Hourly_energy_consumption_by_day_of_week.png)
+For this visualization, we chose a line plot to identify when the factory consumes the most electricity during the day and for differents days of the week. According to the graph, we can see that electricity consumption is high between 7:00 AM and 12:00 PM, decreases between 12:00 PM and 1:00 PM, and then increases significantly from 1:00 PM to 8:00 PM. This pattern might suggest that the factory operates from 7:00 AM to 8:00 PM, with a long break around noon.
+
+This is a useful visualization because it helps us understand how average electricity consumption is distributed throughout the day.
+
+### Correlation!!
+
+<img width="576" height="455" alt="Energy_consumption_vs_C02_emissions" src="https://github.com/user-attachments/assets/8c893588-652b-4d70-803c-3e108d3d027e" />
+
+
+
